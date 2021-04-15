@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:contentDescription="asd"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <!--app:showAsAction="always"--> />
+
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:contentDescription="asd"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="User"
+        android:id="@+id/app_bar_user"/>
+    <item
+        android:title="Contact"
+        android:id="@+id/app_bar_contact"/>
+</menu>
